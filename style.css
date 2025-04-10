@@ -14,10 +14,11 @@ header{
     background-color: #34b334;
     color: white;
     border-radius: 15px;
-    box-shadow: #74d974 3px 3px 0px 0px;
+    box-shadow: #35cb21 3px 3px 0px 0px;
     font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
-    border-color: #153147;
+    border-color: #55eb41;
 }
 .whatsapp{
     margin: 40px;
