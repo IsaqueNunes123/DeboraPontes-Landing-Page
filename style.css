@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #F9F8F6;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.whatsapp button{
+    background-color: #34b334;
+    color: white;
+    border-radius: 15px;
+    box-shadow: #74d974 3px 3px 0px 0px;
+    font-size: 2rem;
+    padding: 10px;
+    border-color: #153147;
+}
+.whatsapp{
+    margin: 40px;
+}
+
+.whatsapp img, footer img{
+    width: 30px;
+    height: 30px;
+}
+
+.contatos{
+    display: flex;
+
+}
+
+
+
+footer{
+    color: #153147;
+    background-color: #F9F8F6;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tituloFooter{
+    display: flex;
+}
+
+footer h2{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    align-self: center;
+}
+
+.logoRodape{
+    height: 200px;
+    width: auto;
+}
+
+#areaDeAtuacao{
+    display: flex;
+    padding: 30px;
+    background-color:#ADB8BA;
+    justify-content: space-evenly;
+}
+.cardAtuacao{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    background-color: #153147;
+    color: white;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cardAtuacao:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+
+#registro {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.5, 0.5)), 
+                url("https://imgs.jusbr.com/publications/images/06449bfbb0c750fca6a47c2c50e35b34");
+    background-size: cover;
+    background-position: -100px;
+    background-position-y: -150px;
+}
+#preventiva {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0.5, 0.5)), 
+                url("https://www.ggsadv.com/wp-content/uploads/2021/11/Design-sem-nome-2021-11-22T123217.871.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-position-y: -150px; */
+}
+#contrato {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0.5, 0.8)), 
+                url("https://conceito.de/wp-content/uploads/2022/11/contract-4085336_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    /* background-position-y: -150px; */
+}
+
+
+
+
+.cardAtuacao p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 20px;
+}
+
+.cardAtuacao h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+
+}
+
+.cardAtuacao img{
+    width: 100%;
+    
+    overflow: hidden;
+    border-top: 1px;
+    border-radius: 10px;
+    
+}
+
+
+.cardAtuacao h3{
+    font-weight: bold;
+    margin: 10px;
+    font-size: larger;
+}
+
+header img{
+    height: 100%;
+    width: auto;
+}
+header #logo{
+    margin-left: 30px;
+}
+#sobre{
+    /* background-image: linear-gradient(to bottom, #F9F8F6 5%, #153147); */
+    padding: 7px;
+    background-color: #153147;
+}
+#sobre h2{
+    margin: 30px;
+    padding: 20px;
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F9F8F6;
+}
+
+
+.contato h2{
+    /* margin: 30px; */
+    padding: 20px;
+    font-size: 2.5rem;
+    color: #F9F8F6;
+}
+.contato p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.contato a{
+    text-decoration: none;
+}
+.contato{
+    margin-right:30px;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}   
