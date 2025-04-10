@@ -5,10 +5,20 @@
 }
 header{
     background-color: #F9F8F6;
-    height: 500px;
+    min-height: 300px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
+
+header img{
+    height: auto;
+    max-height: 500px;
+    max-width: 100%;
+}
+
 
 .whatsapp button{
     background-color: #34b334;
@@ -185,3 +195,137 @@ header #logo{
     margin-left: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }   
+
+@media only screen and (max-width: 1200px) {
+    #areaDeAtuacao {
+        padding: 20px;
+    }
+    
+    #sobre h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Dispositivos médios (tablets, 768px e acima) */
+@media only screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-direction: row
+    }
+    
+    header #logo {
+        margin: 20px 0;
+    }
+    
+    .tituloFooter {
+        flex-direction: column;
+    }
+    
+    #areaDeAtuacao {
+        justify-content: center;
+    }
+    
+    .cardAtuacao {
+        width: 280px;
+    }
+    
+    #sobre h2 {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    
+    .whatsapp button {
+        font-size: 1.2rem;
+    }
+}
+
+/* Dispositivos pequenos (celulares em paisagem, 576px e acima) */
+@media only screen and (max-width: 768px) {
+    .contatos {
+        flex-direction: column;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .contato {
+        margin: 5px 0;
+    }
+    
+    footer h2 {
+        font-size: 1.5rem;
+    }
+    
+    .whatsapp {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cardAtuacao {
+        height: 350px;
+    }
+    
+    .cardAtuacao h3 {
+        font-size: 1.3rem;
+    }
+    
+    .cardAtuacao p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Dispositivos muito pequenos (celulares em retrato) */
+@media only screen and (max-width: 576px) {
+    header {
+        height: auto;
+        flex-direction: row
+    }
+    
+    header img {
+        max-width: 95%;
+    }
+    
+    header #logo {
+        margin: 10px;
+    }
+    
+    #sobre h2 {
+        font-size: 1.2rem;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .whatsapp button {
+        font-size: 1rem;
+        padding: 8px;
+    }
+    
+    .whatsapp img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    #areaDeAtuacao {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+    }
+    
+    .cardAtuacao {
+        width: 90%;
+        max-width: 300px;
+        height: 300px;
+
+    }
+    
+    footer {
+        padding: 10px;
+    }
+    
+    .logoRodape {
+        max-height: 150px;
+    }
+}
