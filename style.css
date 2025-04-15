@@ -28,8 +28,6 @@ nav{
     padding: 1rem 2rem;
     background-color:#F9F8F6;
     border: 1px solid black;
-    /* position: fixed; se quiser que a barra acompanhe a rolagem tira position de comentada */
-    /* width: 100%; */
   
 }
 nav ul{
