@@ -11,6 +11,16 @@
         <img id="logo" src="imgs/Logo.jpg" alt="Logo">
         <img id="fotosentada" src="imgs/FotoSentada.jpg" alt="Foto de debora Pontes">
     </Header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Quem Sou</a></li>
+            <li><a href="#Projetos">Conquistas</a></li>
+            <li><a href="#contatos">Contato</a></li>
+            <li><a href="#objetivo">Formação</a></li>
+            <li><a href="#areaDeAtuacao">Área de Atuação</a></li>
+            <li><a href="#Linguas">Linguas Faladas</a></li>
+        </ul>
+    </nav>
     <section id="sobre">
         <h2>
             Profissional com atuação destacada em advocacia preventiva, registro de marcas e elaboração e análise de contratos.
@@ -42,12 +52,21 @@
             <p>Na área contratual, atuo na elaboração, revisão e negociação de contratos, visando garantir clareza, segurança jurídica e alinhamento entre as partes, prevenindo conflitos e ambiguidades.</p>
         </div>
     </section>
+
+    <section id="formulario">   
+        <input type="text" id="nome" placeholder="Nome completo">
+        <input type="email" id="email" placeholder="Melhor e-mail">
+        <input type="number" id="telefone" placeholder="Telefone para contato">
+        <textarea id="assunto" placeholder="Assunto do contato"></textarea>
+        <button type="submit" onclick="enviar()">Envie</button>
+    </section>
+
     <footer>
         <div class="tituloFooter">
             <h2>Entre em contato comigo</h2>
             <img src="imgs/Logo.jpg" alt="Logo" class="logoRodape">
         </div>
-        <div class="contatos">
+        <div class="contatos" id="contatos">
 
             <div class="contato">
                 <a href="https://wa.me/5587988317430">
@@ -80,5 +99,19 @@
         </div>
 
     </footer>
+
+    <script>
+
+        function enviar(){
+            const nome = document.getElementById('nome').value;
+            const email = document.getElementById('email').value;
+            const telefone = document.getElementById('telefone').value;
+            const assunto = document.getElementById('assunto').value;
+            const mensagem = `Nome: ${nome}\nEmail: ${email}\nTelefone: ${telefone}\nAssunto: ${assunto}`;
+
+
+            window.location.href = `https://wa.me/5571985127749/?text=${mensagem}`;
+        }
+    </script>
 </body>
 </html>

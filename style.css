@@ -21,6 +21,52 @@ header img{
     max-height: 500px;
     max-width: 100%;
 }
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:#F9F8F6;
+    border: 1px solid black;
+  
+}
+nav ul{
+       display: flex;
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       gap: 100px;
+}
+nav ul li:hover{
+    /* background-color:  #C26F4D; */
+    color: #FFFFFF;
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    
+}
+nav ul li {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+nav a{
+    text-decoration: none;
+    color: #153147;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 1.5rem;
+    font-family: "poppins", sans-serif;
+    
+}
+nav a:hover {
+    color: #153147;
+    border-width: 100px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    
+}
 
 
 .whatsapp button{
