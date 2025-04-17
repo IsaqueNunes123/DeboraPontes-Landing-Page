@@ -14,9 +14,9 @@
     <nav >
         <ul>
             <li><a href="#sobre">Quem Sou</a></li>
-            <li><a href="#Projetos">Conquistas</a></li>
-            <li><a href="#contatos">Contato</a></li>
-            <li><a href="#objetivo">Formação</a></li>
+            <!-- <li><a href="#Projetos">Conquistas</a></li> -->
+            <li><a href="#formulario-section">Contato</a></li>
+            <!-- <li><a href="#objetivo">Formação</a></li> -->
             <li><a href="#areaDeAtuacao">Área de Atuação</a></li>
             <li><a href="#Linguas">Linguas Faladas</a></li>
         </ul>
@@ -53,28 +53,34 @@
         </div>
     </section>
 
-        <section id="formulario-section">
+    <section id="formulario-section">
         <h2>Fale Comigo</h2>
         
         <form method="POST" id="formulario">
             <div class="form-group">
-                <label for="nome">Nome:</label>
+                <label for="nome">Digite seu nome:</label>
                 <input type="text" id="nome" name="nome" required>
             </div>
             
             <div class="form-group">
-                <label for="email">Digite seu melhor email:</label>
+                <label for="email">Seu melhor email:</label>
                 <input type="email" id="email" name="email" required>
             </div>
             
             <div class="form-group">
-                <label for="servico"></label>
+                <label for="servico">Selecione um serviço</label>
                 <select id="servico" required>
                     <option value="" disabled selected>Selecione o serviço desejado</option>
-                    <option value="consultoria jurídica">consultoria jurídica</option>
+                    <option value="consultoria jurídica">Consultoria Jurídica</option>
                     <option value="Elaboração e analíse de contrato">Elaboração e analíse de contrato</option>
                     <option value="Assessoria em marca">Assessoria em marca</option>
                     <option value="Pesquisa de viabilidade">Pesquisa de viabilidade</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="arquivo">Anexe arquivos:</label>
+                <input type="file" name="arquivo" id="arquivo">
             </div>
             
             <div class="form-group">
@@ -85,9 +91,10 @@
             <button type="submit">Enviar</button>
         </form>
 
+    </section>
     <footer>
         <div class="tituloFooter">
-            <h2>Entre em contato comigo</h2>
+            <h2>Entre em contato</h2>
             <img src="imgs/Logo.jpg" alt="Logo" class="logoRodape">
         </div>
         <div class="contatos" id="contatos">
