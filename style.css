@@ -385,6 +385,14 @@ header #logo{
         align-items: center;
         flex-direction: row;
     }
+    header #fotosentada{
+        margin-top: 0;
+        width: 40%;
+    }
+    header #logo{
+        margin-left: 30px;
+    }
+
     
     .contato {
         margin: 5px 0;
@@ -474,7 +482,7 @@ header #logo{
     }
     header #fotosentada{
         margin-top: 0;
-        width: 37%;
+        width: 30%;
     }
     
     #sobre h2 {
