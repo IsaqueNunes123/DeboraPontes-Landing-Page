@@ -398,6 +398,48 @@ header #logo{
     .cardAtuacao p {
         font-size: 0.9rem;
     }
+
+    nav {
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contatos {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contato {
+        margin: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .tituloFooter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logoRodape {
+        border-left: none;
+        border-top: 1px solid #153147;
+        margin-top: 15px;
+        padding-top: 15px;
+    }
 }
 
 /* Dispositivos muito pequenos (celulares em retrato) */
@@ -451,5 +493,18 @@ header #logo{
     
     .logoRodape {
         max-height: 150px;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    .contato p {
+        font-size: 16px;
+    }
+
+    footer h2 {
+        font-size: 1.5rem;
+        text-align: center;
     }
 }
