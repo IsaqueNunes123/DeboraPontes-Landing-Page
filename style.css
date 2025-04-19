@@ -11,7 +11,7 @@ html{
 }
 header{
     background-color: #F9F8F6;
-    min-height: 300px;
+    min-height: 200px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -324,21 +324,34 @@ header #logo{
     #areaDeAtuacao {
         padding: 20px;
     }
+    header{
+        /* height: 100px; */
+        /* flex-direction: column; */
+        align-items: center;
+        text-align: center;
+    }
     
     #sobre h2 {
         font-size: 1.8rem;
+    }
+    header #logo {
+        margin: 10px;
+        width: 40%;
     }
 }
 
 /* Dispositivos médios (tablets, 768px e acima) */
 @media only screen and (max-width: 992px) {
     header {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         text-align: center;
         flex-direction: row
     }
-    
+    header #logo {
+        margin: 10px;
+        width: 40%;
+    }
     header #logo {
         margin: 20px 0;
     }
@@ -368,7 +381,7 @@ header #logo{
 /* Dispositivos pequenos (celulares em paisagem, 576px e acima) */
 @media only screen and (max-width: 768px) {
     .contatos {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         flex-direction: row;
     }
@@ -445,16 +458,23 @@ header #logo{
 /* Dispositivos muito pequenos (celulares em retrato) */
 @media only screen and (max-width: 576px) {
     header {
-        height: auto;
+        /* height: 50px; */
         flex-direction: row
     }
     
     header img {
-        max-width: 95%;
+        max-width: 50%;
     }
     
+
     header #logo {
-        margin: 10px;
+        margin: 20px;
+        width: 80%;
+        margin-top: 0;
+    }
+    header #fotosentada{
+        margin-top: 0;
+        width: 30%;
     }
     
     #sobre h2 {
