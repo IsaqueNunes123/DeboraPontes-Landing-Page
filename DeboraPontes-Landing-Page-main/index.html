@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Débora Pontes</title>
+</head>
+<body>
+    <Header>
+        <img id="logo" src="imgs/Logo.jpg" alt="Logo">
+        <img id="fotosentada" src="imgs/FotoSentada.jpg" alt="Foto de debora Pontes">
+    </Header>
+    <nav >
+        <ul>
+            <li><a href="#sobre">Quem Sou</a></li>
+            <!-- <li><a href="#Projetos">Conquistas</a></li> -->
+            <li><a href="#formulario-section">Contato</a></li>
+            <!-- <li><a href="#objetivo">Formação</a></li> -->
+            <li><a href="#areaDeAtuacao">Área de Atuação</a></li>
+            <!-- <li><a href="#Linguas">Linguas Faladas</a></li> -->
+        </ul>
+    </nav>
+    <section id="sobre">
+        <h2>
+            Profissional com atuação destacada em advocacia preventiva, registro de marcas e elaboração e análise de contratos.
+        </h2>
+
+        <div class="whatsapp">
+            <a href="https://wa.me/5587988317430">
+                <button>
+                    <img src="https://images.seeklogo.com/logo-png/16/2/whatsapp-logo-png_seeklogo-168310.png" alt="logo whatsapp">
+                </button>
+            </a>
+        </div> 
+    </section>
+
+    <section id="areaDeAtuacao">
+        <div id="preventiva"  class="cardAtuacao">
+            <!-- <img src="https://www.ggsadv.com/wp-content/uploads/2021/11/Design-sem-nome-2021-11-22T123217.871.jpg" alt=""> -->
+            <h3>Advocacia preventiva</h3>
+            <p>Com uma visão estratégica e focada na proteção dos interesses de seus clientes, oferece soluções jurídicas proativas, visando mitigar riscos e evitar litígios futuros. 
+            </p>
+        </div>
+        <div id="registro" class="cardAtuacao">
+            <!-- <img src="https://imgs.jusbr.com/publications/images/06449bfbb0c750fca6a47c2c50e35b34" alt=""> -->
+            <h3>Registro de marcas</h3>
+            <p>O registro de marcas é tratado com rigor, desde a pesquisa até a obtenção do registro. Meu escritório valoriza a identidade visual e a proteção da propriedade intelectual como essenciais para o sucesso e a competitividade.</p>
+        </div>
+        <div id="contrato" class="cardAtuacao">
+            <h3>Elaboração e análise de contratos</h3>
+            <p>Na área contratual, atuo na elaboração, revisão e negociação de contratos, visando garantir clareza, segurança jurídica e alinhamento entre as partes, prevenindo conflitos e ambiguidades.</p>
+        </div>
+    </section>
+
+    <section id="formulario-section">
+        <h2>Fale Comigo</h2>
+        
+        <form method="POST" id="formulario">
+            <div class="form-group">
+                <label for="nome">Digite seu nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Seu melhor email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="servico">Selecione um serviço</label>
+                <select id="servico" required>
+                    <option value="" disabled selected>Selecione o serviço desejado</option>
+                    <option value="consultoria jurídica">Consultoria Jurídica</option>
+                    <option value="Elaboração e analíse de contrato">Elaboração e analíse de contrato</option>
+                    <option value="Assessoria em marca">Assessoria em marca</option>
+                    <option value="Pesquisa de viabilidade">Pesquisa de viabilidade</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="arquivo">Anexe arquivos:</label>
+                <input type="file" name="arquivo" id="arquivo">
+            </div>
+            
+            <div class="form-group">
+                <label for="assunto">Descreva brevemente:</label>
+                <textarea id="assunto" name="assunto" required></textarea>
+            </div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+    <footer>
+        <div class="tituloFooter">
+            <h2>Entre em contato</h2>
+            <img src="imgs/Logo.jpg" alt="Logo" class="logoRodape">
+        </div>
+        <div class="contatos" id="contatos">
+
+            <div class="contato">
+                <a href="https://wa.me/5587988317430">
+                    <img src="https://cdn-icons-png.flaticon.com/512/73/73552.png" alt="Icone de telefone">
+                    <p id="Telefone">(87) 98831-7430</p> 
+                </a>
+            </div>
+            
+            <div class="contato">
+                <a href="mailto:adv.deborapontes@gmail.com">
+                    <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-email-outline-512.png" alt="Icone de Email">
+                    <p id="Email">adv.deborapontes@gmail.com</p>
+                </a>
+            </div>
+            
+            <div class="contato">
+                <a href="https://www.instagram.com/deboraregistra/">
+                    <img src="https://img.icons8.com/?size=512&id=44907&format=png" alt="Logo do Instagram">
+                    <p id="Instagram">@deboraregistra</p>
+                </a>
+            </div>
+            
+            <div class="contato">
+                <a href="https://www.linkedin.com/in/deeborapontes">
+                    <img src="https://img.icons8.com/ios11/512/linkedin.png" alt="Logo do Linkedin">
+                    <p id="Linkedin">deeborapontes</p>
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
