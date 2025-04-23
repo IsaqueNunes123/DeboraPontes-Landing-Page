@@ -31,6 +31,7 @@ nav{
     padding: 1rem 2rem;
     background-color:#F9F8F6;
     border: 1px solid black;
+    flex-wrap: wrap;
   
 }
 nav ul{
@@ -39,6 +40,7 @@ nav ul{
        margin: 0;
        padding: 0;
        gap: 100px;
+       flex-wrap: wrap;
 }
 nav ul li:hover{
     /* background-color:  #C26F4D; */
@@ -466,7 +468,7 @@ header #logo{
 /* Dispositivos muito pequenos (celulares em retrato) */
 @media only screen and (max-width: 576px) {
     header {
-        /* height: 50px; */
+        /* height: 100%;  */
         flex-direction: row
     }
     
@@ -482,7 +484,8 @@ header #logo{
     }
     header #fotosentada{
         margin-top: 0;
-        width: 30%;
+        width: 35%;
+        height: 100%;
     }
     
     #sobre h2 {
