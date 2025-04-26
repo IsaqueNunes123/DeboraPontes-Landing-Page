@@ -240,6 +240,14 @@ header #logo{
     background-color: #153147;
 }
 
+#formulario{
+    color: #153147;
+    background-color: #ADB8BA;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
 #formulario-section h2{
     font-family: "poppins", sans-serif;
     color: #F9F8F6;
@@ -248,11 +256,8 @@ header #logo{
 
 .form-group{
     margin: 10px;
-    padding: 20px 50px 20px 50px;
-    color: #153147;
+    padding: 10px 50px 10px 50px;
     font-size: 1.5rem;
-    background-color: #ADB8BA;
-    border-radius: 10px;
     
 }
 
@@ -260,22 +265,22 @@ header #logo{
     border: 1px solid #153147;
     border-radius: 10px;
     width: 100%;
-    padding: 5px;
+    padding: 13px;
     margin: 5px;
 }
 
 .form-group textarea{
     border: 1px solid #153147;
-    border-radius: 10px;
+    border-radius: 1px;
     width: 100%;
-    padding: 5px;
+    padding: 13px;
     margin: 5px;
 }
 .form-group select{
     border: 1px solid #153147;
     border-radius: 10px;
     width: 100%;
-    padding: 5px;
+    padding: 13px;
     margin: 5px;
 }
 
@@ -285,19 +290,25 @@ header #logo{
 }
 
 #formulario-section button{
-    background-color: #ADB8BA;
-    border: thin solid #F9F8F6;
+    background-color: #C26F4D;
+    border: thin solid #153147;
     border-radius: 10px;
-    color: #153147;
-    padding: 10px;
+    border-top-left-radius: none ;
+    border-top-right-radius: none ;
+    border-top: none;
+    color: #ffffff;
+    padding: 20px;
     font-size: 1rem;
+    
+    /* margin-bottom: 30px; */
 }
 
 #formulario-section button:hover{
-    background-color: #F9F8F6;
+    background-color: #7cb1da;
     border: thin solid #F9F8F6;
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 1rem;
+    color: #153147;
 }
 
 .contato h2{
